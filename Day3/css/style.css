@@ -1,0 +1,22 @@
+/* body {
+    background-color:green;
+}
+a:link {
+    color:purple;
+}
+a:visited {
+    color:black;
+}
+
+a:hover {
+    color:yellow;
+} */
+
+table p {
+    color: red;
+    display: inline;
+}
+div {
+    color:red;
+    display:inline;
+}

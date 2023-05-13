@@ -13,7 +13,7 @@
             <p>The Table</p>
         </caption>
         <thead>
-            <th>
+            <th colspan="4">
                 0.00
             </th>
         </thead>
@@ -39,12 +39,55 @@
         </tbody>
         <tfoot>
             <tr>
-                <td>=</td>
+                <td colspan="3">=</td>
 
                 <td>-</td>
             </tr>
     
         </tfoot>
     </table>
+    <br />
+
+    <form action="#" style="display:inline;">
+        <h1>Register Page</h1>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" placeholder="Your first name" required>
+        <br />
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" placeholder="Your last name" required>
+        <br />
+        <label for="email">Email: &emsp;&nbsp;&nbsp;&nbsp</label>
+        <input type="email" id="email" name="email" placeholder="email@email.com" required>
+        <br />
+        <label for="password">Password: &nbsp;</label>
+        <input type="password" id="password" name="password" placholder="Enter your password" required>
+        <br />
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="confirmPassword" id="confirmPassword" name="confirmPassword" placholder="Confirm your password" required>
+        <br />
+        <label>Gender: </label>
+        <input type="radio" id="female" name="female">
+        <label for="female">female</label>
+       
+
+        <input type="radio" id="male" name="male">
+        <label for="male">male</label>
+      
+        <br />
+        <label for="birthdate">Date of Birth:</label>
+        <input type="date" id="birthdate" name="birtdate" placeholder="mm/dd/yyyy">
+        <br />
+        Habits:
+        <input type="checkbox" id="habitsOne" name="habits">
+        <label for="habitsOne">You Like Sports</label>
+       
+        <input type="checkbox" id="habitTwo" name="habits">
+        <label for="habitsTwo">You Like To Eat</label>
+       
+        <input type="checkbox" id="habitsThree" name="habits">
+        <label for="habitsThree">You Like To Sleep</label>
+        <br />
+        <button type="Register">Register</button>
+    </form>
 </body>
 </html>
